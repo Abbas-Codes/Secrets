@@ -1,0 +1,224 @@
+body {
+  background-color: #ffcdcd;
+  padding: 50px;
+}
+
+hr {
+  margin: 25px 0;
+}
+
+.container {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.intro-bg {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  margin: 0;
+}
+
+.intro-sml {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  margin: 0;
+}
+
+.sign-up-btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px 18px;
+  background-color: #ff7b7b;
+  border: solid 2px #ff7b7b;
+  border-radius: 5px;
+  margin-right: 3px;
+  margin-top: 10px;
+}
+
+.sign-in-btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ff7b7b;
+  text-decoration: none;
+  padding: 5px 18px;
+  background-color: transparent;
+  border: solid 2px #ff7b7b;
+  border-radius: 5px;
+  margin-left: 3px;
+  margin-top: 10px;
+}
+
+/** Sign up/in **/
+.signup {
+  margin-top: 100px;
+  margin-left: 90px;
+  width: 510px;
+  height: 145px;
+  background-color: #ffffff;
+  padding: 15px 13px 15px 11px;
+  border-radius: 10px;
+  float: left;
+}
+
+.signin {
+  margin-top: 100px;
+  margin-left: 90px;
+  width: 510px;
+  height: 145px;
+  background-color: #ffffff;
+  padding: 15px 13px 15px 11px;
+  border-radius: 10px;
+  float: left;
+}
+
+.account-details {
+  width: 485px;
+  padding: 7px 7px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #000000;
+  margin-bottom: 15px;
+  border: solid 1px #000000;
+  border-radius: 5px;
+}
+
+.account-details::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.account-btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #ffffff;
+  padding: 7px 10px;
+  background-color: #ff7b7b;
+  border: none;
+  border-radius: 5px;
+  float: left;
+  margin-left: 4px;
+}
+
+.google-signup {
+  margin-top: 100px;
+  margin-right: 140px;
+  width: 350px;
+  height: 36px;
+  background-color: #ffffff;
+  padding: 15px 13px 15px 11px;
+  border-radius: 10px;
+  float: right;
+}
+
+.google-btn {
+  padding: 7px 10px;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 5px;
+}
+
+.google-btn a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.google-btn i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+/** Secret page **/
+
+.sign-out-btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px 18px;
+  background-color: #ff7b7b;
+  border: solid 2px #ff7b7b;
+  border-radius: 5px;
+  margin-right: 3px;
+  margin-top: 10px;
+}
+
+.secret-btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ff7b7b;
+  text-decoration: none;
+  padding: 5px 18px;
+  background-color: transparent;
+  border: solid 2px #ff7b7b;
+  border-radius: 5px;
+  margin-left: 3px;
+  margin-top: 10px;
+}
+
+.secret-intro {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin: 0;
+}
+
+.secret-text {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 5px;
+  width: 1000px;
+  margin: 20px auto 0;
+}
+
+/** Submit a Secret **/
+
+.write-secret {
+  border: none;
+  border-bottom: solid 2px #ff7b7b;
+  background-color: transparent;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #000000;
+  width: 1000px;
+  margin-top: 50px;
+}
+
+.write-secret::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #ff7b7b;
+  opacity: 0.5;
+}
+
+.submit-secret {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px 50px;
+  background-color: #ff7b7b;
+  border: solid 2px #ff7b7b;
+  border-radius: 5px;
+  margin-top: 20px;
+}
